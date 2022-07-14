@@ -126,7 +126,7 @@
 &kp TAB &kp Q         &kp W    &kp E      &kp R            &kp T     /*|*/ &kp Y     &kp U   &kp I     &kp O   &kp P    &kp BSPC
 &none   &kp A         &kp S    &lt SYMB D &lt NAV F        &kp G     /*|*/ &kp H     &kp J   &kp K     &kp L   &kp SEMI &kp SQT
 &tdsc   &mltp MEDIA Z &kp X    &kp C      &kp V            &kp B     /*|*/ &kp N     &kp M   &kp COMMA &kp DOT &kp FSLH &kp RET
-                               &kp LGUI   &mt LALT K_CMENU &kp LCTRL /*|*/ &kp SPACE &mo NAV &mo FN
+                               &kp LGUI   &kp LCTRL &mt LALT K_CMENU /*|*/ &mo NAV   &kp SPACE &mo FN
 			>;
 		};
 
@@ -135,7 +135,7 @@
 &tdte          &kp Q &kp W &kp E     &kp R          &kp T     /*|*/ &kp Y     &kp U   &kp I     &kp O   &kp P    &kp BSPC
 &lt MEDIA LGUI &kp A &kp S &kp D     &kp F          &kp G     /*|*/ &kp H     &kp J   &kp K     &kp L   &kp SEMI &kp SQT
 &kp LSHFT      &kp Z &kp X &kp C     &kp V          &kp B     /*|*/ &kp N     &kp M   &kp COMMA &kp DOT &kp FSLH &kp RET
-                           &kp LCTRL &lt G_NUM LALT &kp SPACE /*|*/ &kp SPACE &mo NAV &mo FN
+                           &kp LCTRL &lt G_NUM LALT &kp SPACE /*|*/ &mo NAV   &kp SPACE  &mo FN
 			>;
 		};
 
@@ -144,7 +144,7 @@
 &none     &kp ESC &none &kp LC(LA(UP)) &none    &kp LC(LA(LS(T))) /*|*/ &kp PG_UP &kp HOME &kp UP           &kp END           &kp DEL &kp BSPC
 &none     &none   &none &trans         &none    &none             /*|*/ &kp PG_DN &kp LEFT &kp DOWN         &kp RIGHT         &none   &none
 &kp LSHFT &none   &none &none          &none    &none             /*|*/ &none     &none    &kp LC(LA(LEFT)) &kp LC(LA(RIGHT)) &none   &none
-				        &kp LGUI      &kp LALT &kp LCTRL          /*|*/ &kp BSPC  &kp DEL  &none
+				        &kp LGUI      &kp LCTRL &kp LALT          /*|*/ &kp DEL &kp BSPC &none
 			>;
 		};
 
@@ -153,7 +153,7 @@
 &none     &none &none &none    &none    &none       /*|*/ &kp GRAVE &kp LBKT &kp EXCL  &kp RBKT &kp STAR &none
 &none     &none &none &none    &trans   &none       /*|*/ &kp AMPS  &kp LPAR &kp MINUS &kp RPAR &kp DLLR &kp CARET
 &kp LSHFT &none &none &none    &none    &none       /*|*/ &kp PRCNT &kp AT   &kp EQUAL &kp HASH &kp BSLH &none
-				      &kp LGUI &kp LALT &kp LCTRL   /*|*/ &none     &none    &mo FN
+				      &kp LGUI &kp LCTRL &kp LALT   /*|*/ &none     &none    &mo FN
 			>;
 		};
 
@@ -162,7 +162,7 @@
 &none     &none &none &none    &none    &none     /*|*/ &none   &kp N7 &kp N8 &kp N9 &kp STAR &none
 &none     &none &none &none    &none    &none     /*|*/ &none   &kp N4 &kp N5 &kp N6 &none    &none
 &kp LSHFT &none &none &none    &none    &none     /*|*/ &kp DOT &kp N1 &kp N2 &kp N3 &kp FSLH &none
-				      &kp LGUI &kp LALT &kp LCTRL /*|*/ &kp N0  &none  &none
+				      &kp LGUI &kp LCTRL &kp LALT /*|*/ &none  &kp N0  &none
 			>;
 		};
 
@@ -189,7 +189,7 @@
 &kp PSCRN &none &bt BT_PRV   &bt BT_CLR &bt BT_NXT   &bt BT_SEL 0 /*|*/ &none   &kp F7 &kp F8 &kp F9 &none &kp C_SLEEP
 &none     &none &out OUT_USB &mo SYMB   &out OUT_BLE &bt BT_SEL 1 /*|*/ &kp F12 &kp F4 &kp F5 &kp F6 &none &none
 &kp LSHFT &none &none        &none      &bt BT_SEL 3 &bt BT_SEL 2 /*|*/ &kp F11 &kp F1 &kp F2 &kp F3 &none &tdtl
-				             &kp LGUI   &kp LALT     &kp LCTRL    /*|*/ &kp F10 &none  &none
+				             &kp LGUI   &kp LCTRL     &kp LALT    /*|*/ &none   &kp F10 &none
 			>;
 		};
 
